@@ -105,10 +105,7 @@ before it closes the port. Sweeps end at 0 V.
 ## Contributing
 
 Bug reports, measurement oddities, and ideas from the lab bench are all welcome —
-see [CONTRIBUTING.md](CONTRIBUTING.md) and the issue templates. 
-
-
-This project has a short [Code of Conduct(CODE_OF_CONDUCT.md). 
+see [CONTRIBUTING.md](CONTRIBUTING.md) and the issue templates.
 
 ## Releasing
 

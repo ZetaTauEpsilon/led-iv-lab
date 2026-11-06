@@ -1,6 +1,27 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.vscode/
+.idea/
+
+# Python (local http.server, scratch scripts)
+__pycache__/
+*.pyc
+.venv/
+
+# Build / flash artifacts (CI builds the .uf2; releases carry it)
 build/
 _site/
 *.uf2
 *.bin
 *.elf
-.DS_Store
+
+# Files that end up alongside code.py if a CIRCUITPY drive is copied in whole.
+boot_out.txt
+settings.toml
+.fseventsd/
+.metadata_never_index
+.Trashes
+lib/
