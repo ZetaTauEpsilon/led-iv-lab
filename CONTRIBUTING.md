@@ -4,8 +4,6 @@ Thanks for helping. This is a small project with three moving parts — a web
 page, two interchangeable firmwares, and the serial protocol that joins them —
 and most contributions touch only one of the three.
 
-Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) first.
-
 ## Ways to contribute
 
 - **Report a bug** — use the *Bug report* template. Say whether you were on the
