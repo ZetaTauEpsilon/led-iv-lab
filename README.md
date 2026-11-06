@@ -102,10 +102,10 @@ The firmware turns every LED switch off and sets the DAC to 0 V on power-up,
 on `LED OFF`, when the USB host disconnects, and the page sends `LED OFF`
 before it closes the port. Sweeps end at 0 V.
 
-## Contributing
+## Reporting problems
 
-Bug reports, measurement oddities, and ideas from the lab bench are all welcome —
-see [CONTRIBUTING.md](CONTRIBUTING.md) and the issue templates.
+Bug reports and measurement oddities from the lab bench are welcome — use the
+issue templates. The project doesn't take pull requests.
 
 ## Releasing
 
