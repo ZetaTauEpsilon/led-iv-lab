@@ -79,6 +79,7 @@ def select_led(which):
 def measure():
     """Blocking CheckVoltage cycle (~50 ms). Returns the M line."""
     sel_res.value = False
+    time.sleep(SETTLE_S)
     sel_led.value = True
     time.sleep(SETTLE_S)
     v_led = read_sense()
