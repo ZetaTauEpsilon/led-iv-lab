@@ -44,7 +44,7 @@ const float ADC_FULL_SCALE_V = 3.300f;
 const int   DAC_BITS = 12;            // 0..4095
 const int   ADC_BITS = 12;            // 0..4095
 const int   ADC_OVERSAMPLE = 16;
-const unsigned long SETTLE_MS = 25;   // from the spec: "Count 25 ms"
+const unsigned long SETTLE_MS = 100;   // from the spec: "Count 25 ms"
 
 // ---------------------------------------------------------------- state
 float  senseOhms   = 100.0f;          // placeholder; set with "R <ohms>"
